@@ -5,9 +5,9 @@
   export let y_pixels = 0;
 
   let head;
-  let viewportOffset, top, left;
+  let viewportOffset, top, left, w, h;
   let rotate_angle = 0;
-  let left_modifier = 270;
+  let left_modifier = 250;
 
   function getAngleDegrees(fromX, fromY, toX, toY, force360 = true) {
     let deltaX = fromX-toX; 
@@ -24,21 +24,19 @@
   }
 
   $: if (y_pixels !== 0) {
-    let head_degrees = getAngleDegrees(left, top, x_pixels, y_pixels);
-    //Math.ceil(getAngleDegrees(left, top, x_pixels, y_pixels).degrees - left_modifier);
-    console.log("Degrees are", head_degrees);
+    let head_degrees = getAngleDegrees(left + (w - (w * .35)), top + (h - (h * .35)), x_pixels, y_pixels);
 
     if (head_degrees != NaN && head_degrees !== undefined) {
       rotate_angle = Math.ceil(head_degrees - left_modifier);
-      console.log("Assigning degrees", rotate_angle);
     }
-    //console.log(getAngleDegrees(left, top, x_pixels, y_pixels));
   }
 
   function update_position() {
     viewportOffset = head.getBoundingClientRect();
     top = Math.ceil(viewportOffset.top);
     left = Math.ceil(viewportOffset.left);
+    w  = head.clientWidth;
+    h  = head.clientHeight;
   }
 
   onMount(() => {
