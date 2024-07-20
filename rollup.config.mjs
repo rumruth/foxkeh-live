@@ -4,10 +4,10 @@ import terser from '@rollup/plugin-terser';
 import preprocess from 'svelte-preprocess';
 
 export default {
-	input: 'foxkeh.js',
+	input: 'index.js',
 	output: {
 		format: 'iife',
-		file: 'dist.js',
+		file: 'foxkeh.js',
 		compact: true,
     	sourcemap: false,
 	},
