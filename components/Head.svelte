@@ -73,7 +73,7 @@
   });
 </script>
 
-<svelte:window on:scroll={update_position} on:error={handleError} />
+<svelte:window on:scroll={update_position} />
 
 <div
   class="head"
