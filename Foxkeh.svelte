@@ -2,27 +2,38 @@
   import Head from "./components/Head.svelte";
   import Body from "./components/Body.svelte";
   import Tail from "./components/Tail.svelte";
-  import Globe from "./components/Globe.svelte";
 </script>
 
 <div class="temp-wrapper">
-  <div class="foxkeh">
-    <Head />
-    <Body />
-    <Tail />
-    <Globe />
+  <div class="foxkeh__wrapper">
+    <div class="foxkeh">
+      <Head />
+      <Body />
+      <Tail />
+    </div>
   </div>
 </div>
 
 <style lang="scss">
   .temp-wrapper {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
+    background: blue;
   }
 
   .foxkeh {
-    position: relative;
-    width: 100%;
+    position: absolute;
     aspect-ratio: 1 / 1;
+    width: 50%;
+    bottom: 0;
+    left: 21%;
+
+    &__wrapper {
+      box-sizing: border-box;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+    }
   }
 </style>

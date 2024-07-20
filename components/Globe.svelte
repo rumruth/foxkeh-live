@@ -3,7 +3,7 @@
 </script>
 
 <div class="globe">
-  <svg  version="1.1" id="レイヤー_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="127.76" height="135.013" viewBox="0 0 127.76 135.013" overflow="visible" enable-background="new 0 0 127.76 135.013" xml:space="preserve">
+  <svg  version="1.1" id="レイヤー_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" viewBox="0 0 127.76 135.013" overflow="visible" enable-background="new 0 0 127.76 135.013" xml:space="preserve">
     <symbol  id="ちたま" viewBox="-63.88 -67.506 127.76 135.013">
       <g>
         <defs>

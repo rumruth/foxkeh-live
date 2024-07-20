@@ -3,7 +3,7 @@
 </script>
 
 <div class="tail">
-  <svg  version="1.1" id="レイヤー_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="225.052" height="436.731" viewBox="0 0 225.052 436.731" overflow="visible" enable-background="new 0 0 225.052 436.731" xml:space="preserve">
+  <svg  version="1.1" id="レイヤー_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" viewBox="0 0 225.052 436.731" overflow="visible" enable-background="new 0 0 225.052 436.731" xml:space="preserve">
     <symbol  id="尻尾_2" viewBox="-112.56 -218.331 225.051 436.731">
       <g>
         <image width="1094" height="2123" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABEsAAAhRCAYAAAAZNWbyAAAACXBIWXMAADXTAAA10wEMIUN3AAAA
@@ -2805,8 +2805,8 @@
   .tail {
     position: absolute;
     z-index: 3;
-    top: -72%;
-    right: -5%;
-    width: 56%;
+    top: -108%;
+    right: -60%;
+    width: 89%;
   }
 </style>

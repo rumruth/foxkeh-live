@@ -3,7 +3,7 @@
 </script>
 
 <div class="head">
-  <svg  version="1.1" id="レイヤー_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="235.998" height="228.427" viewBox="0 0 235.998 228.427" overflow="visible" enable-background="new 0 0 235.998 228.427" xml:space="preserve">
+  <svg  version="1.1" id="レイヤー_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" viewBox="0 0 235.998 228.427" overflow="visible" enable-background="new 0 0 235.998 228.427" xml:space="preserve">
     <symbol  id="頭_横_xFF08_笑顔_xFF09_" viewBox="-117.999 -114.214 235.997 228.428">
       <g>
         <path fill="none" stroke="#20BF00" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" d="M51.217-55.172
@@ -89,8 +89,8 @@
   .head {
     position: absolute;
     z-index: 5;
-    top: -36%;
-    left: -25%;
-    width: 56.5%;
+    top: -42%;
+    left: -39%;
+    width: 93%;
   }
 </style>

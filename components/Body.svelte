@@ -3,7 +3,7 @@
 </script>
 
 <div class="body">
-  <svg  version="1.1" id="レイヤー_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" width="254.942" height="227.752" viewBox="0 0 254.942 227.752" overflow="visible" enable-background="new 0 0 254.942 227.752" xml:space="preserve">
+  <svg  version="1.1" id="レイヤー_1" xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" viewBox="0 0 254.942 227.752" overflow="visible" enable-background="new 0 0 254.942 227.752" xml:space="preserve">
     <symbol  id="体_横" viewBox="-127.472 -113.876 254.943 227.752">
       <g>
         <path fill="#DF731B" d="M21.163,34.934c-42.547,5.822-73.451-6.271-65.836-38.965c7.613-32.693,34.484-50.609,33.589-55.535
