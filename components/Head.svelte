@@ -7,7 +7,7 @@
   let head;
   let viewportOffset, top, left, w, h;
   let rotate_angle = 0;
-  let left_modifier = 250;
+  let left_modifier = 280;
 
   function getAngleDegrees(fromX, fromY, toX, toY, force360 = true) {
     let deltaX = fromX-toX; 
