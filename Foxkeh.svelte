@@ -35,26 +35,30 @@
 
 <svelte:window on:mousemove={mouse_handler} bind:innerWidth bind:innerHeight />
 
-<div class="foxkeh">
-  <Head bind:x_pixels bind:y_pixels />
-  <Body />
-  <Tail />
+<div class="foxkeh__wrapper">
+  <div class="foxkeh__inner">
+    <Head bind:x_pixels bind:y_pixels />
+    <Body />
+    <Tail />
+  </div>
 </div>
 
 <style lang="scss">
   .foxkeh {
-    position: absolute;
-    aspect-ratio: 1 / 1;
-    width: 50%;
-    bottom: 0;
-    left: 21%;
-  }
+    &__wrapper {
+      box-sizing: border-box;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+    }
 
-  :global(.foxkeh__wrapper) {
-    box-sizing: border-box;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
+    &__inner {
+      position: absolute;
+      aspect-ratio: 1 / 1;
+      width: 50%;
+      bottom: 0;
+      left: 21%;
+    }
   }
 </style>
