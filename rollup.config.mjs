@@ -1,5 +1,6 @@
 import svelte from 'rollup-plugin-svelte';
 import resolve from '@rollup/plugin-node-resolve';
+import terser from '@rollup/plugin-terser';
 import preprocess from 'svelte-preprocess';
 
 export default {
@@ -7,7 +8,8 @@ export default {
 	output: {
 		format: 'iife',
 		file: 'dist.js',
-    sourcemap: false,
+		compact: true,
+    	sourcemap: false,
 	},
 	plugins: [
 		svelte({ 
@@ -15,5 +17,6 @@ export default {
       		preprocess: preprocess(),
 		}),
 		resolve({ browser: true, dedupe: ['svelte'] }),
+		terser(),
 	],
 }
